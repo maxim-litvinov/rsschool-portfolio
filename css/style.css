@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-	background: red;
+	
+	font-family: "Roboto", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: normal;
+   font-style: normal;
+   font-variation-settings: "wdth" 100;
+	
+}
+.container {
+	max-width: 100%;
+}
+
+.header {
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #222222;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.logo {
+	width: 20px;
+	height: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.menu {
+	width: 30%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.menu-list{
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	list-style: none;
+	
 }
