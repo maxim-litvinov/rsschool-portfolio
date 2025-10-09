@@ -13,6 +13,8 @@ body {
 	max-width: 100%;
 }
 
+
+/* header */
 .header {
 	box-sizing: border-box;
 	width: 100%;
@@ -42,4 +44,43 @@ body {
 	color: #fff;
 	list-style: none;
 	
+}
+
+/* hero */
+.hero {
+	background: #222222;
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+}
+
+.hero-first {
+	display: flex;
+	justify-content: space-around;
+	/* transform: rotate(-90deg); */
+	font-size: 12px;
+	height: 15px;
+}
+
+.hero-first-text {
+	margin: 0;
+}
+
+.line {
+	content: "";
+   left: 40px;
+   width: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+   border-bottom: 1px #fff solid;
+}
+
+.hero-third-img {
+	width: 220px;
+	height: 220px;
+}
+
+.hero-four-img { 
+	width: 280px;
+	height: 374px;
 }
