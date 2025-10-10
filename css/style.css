@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-	
 	font-family: "Roboto", sans-serif;
    font-optical-sizing: auto;
    font-weight: normal;
    font-style: normal;
    font-variation-settings: "wdth" 100;
-	
 }
+
 .container {
 	max-width: 100%;
 }
-
 
 /* header */
 .header {
@@ -43,37 +41,45 @@ body {
 	justify-content: space-between;
 	color: #fff;
 	list-style: none;
-	
 }
 
 /* hero */
 .hero {
+	height: 862px;
 	background: #222222;
 	display: flex;
-	justify-content: space-around;
+	/* justify-content: space-between; */
+	/* align-items: center; */
 	color: #fff;
 }
 
-.hero-first {
+.hero-sidebar {
 	display: flex;
-	justify-content: space-around;
-	/* transform: rotate(-90deg); */
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 0 20px;
+	writing-mode: sideways-lr;
+	text-orientation: mixed;
 	font-size: 12px;
-	height: 15px;
+	color: #fff;
+	white-space: nowrap;
 }
 
-.hero-first-text {
+.hero-sidebar-text {
 	margin: 0;
+	text-align: center;
+	letter-spacing: 1px;
 }
 
-.line {
-	content: "";
-   left: 40px;
-   width: 100px;
-	margin-top: auto;
-	margin-bottom: auto;
-   border-bottom: 1px #fff solid;
+.hero-sidebar-line {
+	width: 1px;
+	height: 60%;
+	background-color: #fff;
+	margin: 12px 0;
 }
+
 
 .hero-third-img {
 	width: 220px;
